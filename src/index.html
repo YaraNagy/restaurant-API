@@ -5,8 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-
+<body class="bg-slate-600">
+    <nav class="bg-slate-800 h-16 place-self-center self-center flex justify-center items-center w-1/2 rounded-3xl text-white" id="navbar">
+        <ul class="flex font-bold text-lg space-x-10 w-full">
+    <li>
+        <a class="px-20 block" data-akla="pasta">Pasta</a>
+    </li>
+    <li>
+        <a class="px-20 block" data-akla="salad">Salad</a>
+    </li>
+    <li>
+        <a class="px-20 block" data-akla="beef">Beef</a>
+    </li>
+    <li>
+        <a class="px-20 block" data-akla="pizza">Pizza</a>
+    </li>
+</ul>
+</nav>
+ <!-- Bounce Loader -->
+ <div id="loader" class="hidden space-x-2 place-self-center mt-10">
+    <div class="w-5 h-5 bg-blue-500 rounded-full animate-bounce"></div>
+    <div class="w-5 h-5 bg-blue-500 rounded-full animate-bounce delay-200"></div>
+    <div class="w-5 h-5 bg-blue-500 rounded-full animate-bounce delay-400"></div>
+  </div>
+<div class="grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-4 gap-6 mt-32 ml-4 justify-evenly items-center " id="allcards">
     
+  </div>
+  
+  
+  
+
+
+    <script src="index.js"></script>
 </body>
 </html>
